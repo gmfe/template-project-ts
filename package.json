@@ -1,0 +1,57 @@
+{
+  "name": "gm_static_projectx",
+  "aliasName": "projcctx",
+  "clientName": "GmProjectX",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gras start",
+    "build:test": "gras test",
+    "build:prod": "gras build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.guanmai.cn:front-end/gm_static_projectx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gm-react-app/scripts": "^3.2.9",
+    "@types/big.js": "^4.0.5",
+    "@types/classnames": "^2.2.10",
+    "@types/lodash": "^4.14.159",
+    "big.js": "^5.2.2",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.2.0"
+  },
+  "lint-staged": {
+    "./src/**/*.{ts,tsx,js,json}": [
+      "eslint --cache --fix"
+    ],
+    "./src/**/*.{less,css}": [
+      "stylelint --cache --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "browserslist": {
+    "production": [
+      "iOS >= 8",
+      "Android >= 5.0"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
