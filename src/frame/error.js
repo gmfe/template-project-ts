@@ -16,7 +16,11 @@ class ErrorBoundary extends React.Component {
 
   render() {
     if (this.state.error) {
-      return <div style={{ height: '100vh', paddingTop: '150px' }}>todo</div>
+      return (
+        <div style={{ height: '100vh', paddingTop: '150px' }}>
+          react componentDidCatch
+        </div>
+      )
     }
 
     return this.props.children

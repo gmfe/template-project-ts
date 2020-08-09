@@ -5,7 +5,8 @@
       "common/*": ["src/js/common/*"],
       "stores/*": ["src/js/stores/*"],
       "svg/*": ["src/svg/*"],
-      "img/*": ["src/img/*"]
+      "img/*": ["src/img/*"],
+      "@/*": ["src/*"]
     },
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true

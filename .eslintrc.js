@@ -10,6 +10,7 @@ module.exports = {
         stores: path.resolve(__dirname, 'src/js/stores/'),
         svg: path.resolve(__dirname, 'src/svg/'),
         img: path.resolve(__dirname, 'src/img/'),
+        '@': path.resolve(__dirname, 'src/'),
       },
     },
   },

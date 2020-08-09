@@ -1049,22 +1049,33 @@
   resolved "https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
-"@gm-react-app/scripts@^3.2.9":
-  version "3.2.9"
-  resolved "https://registry.npmjs.org/@gm-react-app/scripts/-/scripts-3.2.9.tgz#e49f082a873b40358c3a187f5bcfc5f2077ccd32"
-  integrity sha512-3vXZC9I6+iSOPGDgQnMtr0RhdvHpPXqhBIFWtkLTXjU6cpPO9M1NxYqHwdIEcWWPLr9udsYugYUwIGSnGbtGFg==
+"@gm-common/router@^2.5.0-alpha.0":
+  version "2.5.0-alpha.0"
+  resolved "https://registry.npmjs.org/@gm-common/router/-/router-2.5.0-alpha.0.tgz#d393ee71fed16dfb47faf9db704374128c1fd8b5"
+  integrity sha512-rtnKcUIQr+KBCdN9WGox5VbmT9YS0hBnmpiSqmHQfOfirepN0qf4DZtYx6q+d7onYPvrzBQM2xjSPN8QqidVvA==
+  dependencies:
+    "@types/history" "^4.7.5"
+    "@types/hoist-non-react-statics" "^3.3.1"
+    hoist-non-react-statics "^3.3.2"
+    lodash "^4.17.19"
+    query-string "^6.11.1"
+
+"@gm-react-app/scripts@^3.2.10":
+  version "3.2.10"
+  resolved "https://registry.npmjs.org/@gm-react-app/scripts/-/scripts-3.2.10.tgz#9d96e774e6c323f2a72cf7147f357910de28c5de"
+  integrity sha512-E4sMkGJ24Z/PMjoMmHihOeXi/tMgnK0t5Nx5T4bOKIctQAWrYk/wRg/jfrcKOMs2Bw3av/MTKn5lrH/5EcHsDg==
   dependencies:
     "@babel/core" "^7.8.4"
-    "@gm-react-app/template" "^3.2.9"
+    "@gm-react-app/template" "^3.2.10"
     "@hot-loader/react-dom" "^16.11.0"
     "@svgr/webpack" "^5.3.1"
     "@types/react" "^16.9.32"
     babel-loader "^8.0.6"
-    babel-preset-gm-react-app "^3.2.9"
+    babel-preset-gm-react-app "^3.2.10"
     case-sensitive-paths-webpack-plugin "^2.3.0"
     cross-spawn "^7.0.2"
     css-loader "^3.5.1"
-    eslint-plugin-gm-react-app "^3.2.9"
+    eslint-plugin-gm-react-app "^3.2.10"
     file-loader "^6.0.0"
     fork-ts-checker-webpack-plugin "^4.1.3"
     fs "0.0.2"
@@ -1086,17 +1097,17 @@
     stylelint-config-standard "^20.0.0"
     terser-webpack-plugin "^2.1.0"
     thread-loader "^2.1.3"
-    ts-config-gm-react-app "^3.2.9"
+    ts-config-gm-react-app "^3.2.10"
     typescript "^3.8.3"
     url-loader "^4.0.0"
     webpack "^4.42.1"
     webpack-cli "^3.1.2"
     webpack-dev-server "^3.1.11"
 
-"@gm-react-app/template@^3.2.9":
-  version "3.2.9"
-  resolved "https://registry.npmjs.org/@gm-react-app/template/-/template-3.2.9.tgz#7ce9f72ab87eee39d880dcc5362b761ae9bb8a6f"
-  integrity sha512-i/OCftlQnFhVe5OV9H5Jmey26wT7f8TpthAwc2wRnHIJdAQ25im6pfuejCBi6zVsflo5FgtvXT25hTAhKJA6gA==
+"@gm-react-app/template@^3.2.10":
+  version "3.2.10"
+  resolved "https://registry.npmjs.org/@gm-react-app/template/-/template-3.2.10.tgz#72896e3b24df7cb802bfaf42fb0ecfdc42c39540"
+  integrity sha512-Z/IGFYV+GWFNxSpIx/kaCVBhrJ+zu8g6iyNqE4DxeJGn4zr3D8Mnm7cW/Jr8Slk0IgEJmfr6qc53HKgBKyYoqg==
   dependencies:
     art-template "^4.13.2"
     fs-extra "^9.0.1"
@@ -1285,6 +1296,19 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/history@^4.7.5":
+  version "4.7.7"
+  resolved "https://registry.npmjs.org/@types/history/-/history-4.7.7.tgz#613957d900fab9ff84c8dfb24fa3eef0c2a40896"
+  integrity sha512-2xtoL22/3Mv6a70i4+4RB7VgbDDORoWwjcqeNysojZA0R7NK17RbY5Gof/2QiFfJgX+KkWghbwJ+d/2SB8Ndzg==
+
+"@types/hoist-non-react-statics@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.npmjs.org/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/html-minifier-terser@^5.0.0":
   version "5.1.0"
   resolved "https://registry.npmjs.org/@types/html-minifier-terser/-/html-minifier-terser-5.1.0.tgz#551a4589b6ee2cc9c1dff08056128aec29b94880"
@@ -1339,6 +1363,14 @@
   version "1.5.4"
   resolved "https://registry.npmjs.org/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
+
+"@types/react@*":
+  version "16.9.45"
+  resolved "https://registry.npmjs.org/@types/react/-/react-16.9.45.tgz#b43ccf3d8a3d2020e6a48c8c8492e5a4bc10f097"
+  integrity sha512-vv950slTF5UZ5eDOf13b8qC1SD4rTvkqg3HfaUKzr17U97oeJZAa+dUaIHn0QoOJflNTIt6Pem9MmapULs9dkA==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^3.0.2"
 
 "@types/react@^16.9.32":
   version "16.9.44"
@@ -1930,6 +1962,11 @@ babel-plugin-lodash@^3.3.4:
     lodash "^4.17.10"
     require-package-name "^2.0.1"
 
+babel-plugin-mobx-deep-action@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.npmjs.org/babel-plugin-mobx-deep-action/-/babel-plugin-mobx-deep-action-1.6.1.tgz#f84e6fb01304db1068c01a49d233de4ca4adec06"
+  integrity sha512-4/OQP0Sya4eARErMNi5mmdh3khhyeY0Siyj98+796m8U8aNL9rr/wUm4Byx0ipZqsJz2LsZKCdfTJSAHwk88nA==
+
 "babel-plugin-styled-components@>= 1":
   version "1.11.1"
   resolved "https://registry.npmjs.org/babel-plugin-styled-components/-/babel-plugin-styled-components-1.11.1.tgz#5296a9e557d736c3186be079fff27c6665d63d76"
@@ -1945,10 +1982,10 @@ babel-plugin-syntax-jsx@6.18.0, babel-plugin-syntax-jsx@^6.18.0:
   resolved "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz#0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946"
   integrity sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY=
 
-babel-preset-gm-react-app@^3.2.9:
-  version "3.2.9"
-  resolved "https://registry.npmjs.org/babel-preset-gm-react-app/-/babel-preset-gm-react-app-3.2.9.tgz#8a2b4a8b51b7dde48807043945084279441c27f8"
-  integrity sha512-a3jIATb+XEXOZdril8VzYoteEKUCkUkcCrHvrAcDGvGG9BK11q5lJuswlR94S2KCBAQM2c/nGVM4WqIJO4P/ug==
+babel-preset-gm-react-app@^3.2.10:
+  version "3.2.10"
+  resolved "https://registry.npmjs.org/babel-preset-gm-react-app/-/babel-preset-gm-react-app-3.2.10.tgz#a15ecd632341b3384c39b7da9677cd411ce6f546"
+  integrity sha512-nVDs8dk9drexH4kSxhCj1PqsFqlx+Wj9L06symesVwg0gblhNe4G6dpFV3NujNPE0nShOOkPR53KAHkEa+swqg==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.8.4"
@@ -3467,10 +3504,10 @@ eslint-plugin-es@^3.0.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-gm-react-app@^3.2.9:
-  version "3.2.9"
-  resolved "https://registry.npmjs.org/eslint-plugin-gm-react-app/-/eslint-plugin-gm-react-app-3.2.9.tgz#33855ec95029a92b84bb7d93944c5edfc5863640"
-  integrity sha512-Xw7kGNOCMWw9zciloLLz3sCPCMIVFxxCQ16QlnSpOrMZfQ9gQ0ltQSCBLTvbg9YoVJa2uucEnFAhgHjroUD0/g==
+eslint-plugin-gm-react-app@^3.2.10:
+  version "3.2.10"
+  resolved "https://registry.npmjs.org/eslint-plugin-gm-react-app/-/eslint-plugin-gm-react-app-3.2.10.tgz#dad4b8d0ab6e56ff83c7653aa8336c50714dc1f7"
+  integrity sha512-lHDO+XOsPCaIdsmtwgkCBcgj/nodRjgTzJh86LPK6Q3k7tPft8DKttUHVgXbKOKAe3kvYQHT0HDhu09FZ8vj2g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.27.0"
     "@typescript-eslint/parser" "^2.27.0"
@@ -3491,9 +3528,9 @@ eslint-plugin-gm-react-app@^3.2.9:
     eslint-plugin-standard "^4.0.0"
     import-modules "^2.0.0"
     jsx-ast-utils "^2.2.3"
-    lodash "^4.17.14"
+    lodash "^4.17.19"
     prettier "^2.0.4"
-    ts-config-gm-react-app "^3.2.9"
+    ts-config-gm-react-app "^3.2.10"
     typescript "^3.8.3"
 
 eslint-plugin-import@^2.20.2:
@@ -4448,7 +4485,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0:
+hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -5876,6 +5913,23 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+mobx-react-lite@>=2.0.6:
+  version "2.0.7"
+  resolved "https://registry.npmjs.org/mobx-react-lite/-/mobx-react-lite-2.0.7.tgz#1bfb3b4272668e288047cf0c7940b14e91cba284"
+  integrity sha512-YKAh2gThC6WooPnVZCoC+rV1bODAKFwkhxikzgH18wpBjkgTkkR9Sb0IesQAH5QrAEH/JQVmy47jcpQkf2Au3Q==
+
+mobx-react@^6.2.5:
+  version "6.2.5"
+  resolved "https://registry.npmjs.org/mobx-react/-/mobx-react-6.2.5.tgz#9020a17b79cc6dc3d124ad89ab36eb9ea540a45b"
+  integrity sha512-LxtXXW0GkOAO6VOIg2m/6WL6ZuKlzOWwESIFdrWelI0ZMIvtKCMZVUuulcO5GAWSDsH0ApaMkGLoaPqKjzyziQ==
+  dependencies:
+    mobx-react-lite ">=2.0.6"
+
+mobx@^4.15.4:
+  version "4.15.5"
+  resolved "https://registry.npmjs.org/mobx/-/mobx-4.15.5.tgz#7fb0fb5fbd56ccbd9551b1a7510494b6c5e41680"
+  integrity sha512-Tjhxy2ui0H++1ackzkeG+YSDDwS7sKBvIVCxyADK+S/8ZznctmrCL5vvu+jpE+kBLpttHj/xP+haLC5QEsqA2Q==
+
 moment@^2.27.0:
   version "2.27.0"
   resolved "https://registry.npmjs.org/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
@@ -7071,7 +7125,7 @@ promise-inflight@^1.0.1:
   resolved "https://registry.npmjs.org/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
-prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -7163,6 +7217,15 @@ query-string@^4.1.0:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
+query-string@^6.11.1:
+  version "6.13.1"
+  resolved "https://registry.npmjs.org/query-string/-/query-string-6.13.1.tgz#d913ccfce3b4b3a713989fe6d39466d92e71ccad"
+  integrity sha512-RfoButmcK+yCta1+FuU8REvisx1oEzhMKwhLUNcepQTPGcNMp1sIqjnfCtfnvGSQZQEhaBHvccujtWoUV3TTbA==
+  dependencies:
+    decode-uri-component "^0.2.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
 querystring-es3@^0.2.0:
   version "0.2.1"
   resolved "https://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
@@ -7247,7 +7310,27 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-router@^5.2.0:
+react-loadable@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.npmjs.org/react-loadable/-/react-loadable-5.5.0.tgz#582251679d3da86c32aae2c8e689c59f1196d8c4"
+  integrity sha512-C8Aui0ZpMd4KokxRdVAm2bQtI03k2RMRNzOB+IipV3yxFTSVICv7WoUr5L9ALB5BmKO1iHgZtWM8EvYG83otdg==
+  dependencies:
+    prop-types "^15.5.0"
+
+react-router-dom@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"
+  integrity sha512-gxAmfylo2QUjcwxI63RhQ5G85Qqt4voZpUXSEqCwykV0baaOTQDR1f0PmY8AELqIyVc0NEZUj0Gov5lNGcXgsA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    history "^4.9.0"
+    loose-envify "^1.3.1"
+    prop-types "^15.6.2"
+    react-router "5.2.0"
+    tiny-invariant "^1.0.2"
+    tiny-warning "^1.0.0"
+
+react-router@5.2.0, react-router@^5.2.0:
   version "5.2.0"
   resolved "https://registry.npmjs.org/react-router/-/react-router-5.2.0.tgz#424e75641ca8747fbf76e5ecca69781aa37ea293"
   integrity sha512-smz1DUuFHRKdcJC0jobGo8cVbhO3x50tCL4icacOlcwDOEQPq4TMqwx3sY1TP+DvtTgz4nm3thuo7A+BK2U0Dw==
@@ -8094,6 +8177,11 @@ specificity@^0.4.1:
   resolved "https://registry.npmjs.org/specificity/-/specificity-0.4.1.tgz#aab5e645012db08ba182e151165738d00887b019"
   integrity sha512-1klA3Gi5PD1Wv9Q0wUoOQN1IWAuPu0D1U03ThXTr0cJ20+/iq2tHSDnK7Kk/0LXJ1ztUB2/1Os0wKmfyNgUQfg==
 
+split-on-first@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
+  integrity sha512-43ZssAJaMusuKWL8sKUBQXHWOpq8d6CfN/u1p4gUzfJkM05C8rxTmYrkIPTXapZpORA6LkkzcUulJ8FqA7Uudw==
+
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
   resolved "https://registry.npmjs.org/split-string/-/split-string-3.1.0.tgz#7cb09dda3a86585705c64b39a6466038682e8fe2"
@@ -8180,6 +8268,11 @@ strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
   integrity sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
+
+strict-uri-encode@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
 
 string-argv@0.3.1:
   version "0.3.1"
@@ -8672,10 +8765,10 @@ trough@^1.0.0:
   resolved "https://registry.npmjs.org/trough/-/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
-ts-config-gm-react-app@^3.2.9:
-  version "3.2.9"
-  resolved "https://registry.npmjs.org/ts-config-gm-react-app/-/ts-config-gm-react-app-3.2.9.tgz#59306ab4c16fe414f6349ef94ef794467f779f90"
-  integrity sha512-Rqhlgq5Ag98sZleFb7N4/xR89H6hRFY2HYjy95PU1dhMiDzzMY+bdOEM0vcPADmZv+9ETo5RV6JdFOwNnhOLAg==
+ts-config-gm-react-app@^3.2.10:
+  version "3.2.10"
+  resolved "https://registry.npmjs.org/ts-config-gm-react-app/-/ts-config-gm-react-app-3.2.10.tgz#2248bc0fb9b4635b39117f1bf8e431c673452e03"
+  integrity sha512-ax+2Ue69mGYgOX0rN6q4r2uz7HZqd66hq/HJRym7X/8BBWZ98YcRlrvQenOk6WfFSJdcrxHki1UC/ZqJ5ExKXw==
 
 tsconfig-paths@^3.9.0:
   version "3.9.0"
