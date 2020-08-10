@@ -28,6 +28,7 @@
   },
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
   },
@@ -42,9 +43,14 @@
       "last 1 safari version"
     ]
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "dependencies": {
     "@gm-common/router": "^2.5.0-alpha.0",
-    "@gm-react-app/scripts": "^3.3.0",
+    "@gm-react-app/scripts": "^3.3.1",
     "@types/big.js": "^4.0.5",
     "@types/classnames": "^2.2.10",
     "@types/lodash": "^4.14.159",
