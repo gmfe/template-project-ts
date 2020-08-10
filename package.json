@@ -1,5 +1,5 @@
 {
-  "name": "gm_static_projectx",
+  "name": "gm_static_x_projectx",
   "aliasName": "projcctx",
   "clientName": "GmProjectX",
   "version": "1.0.0",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@code.guanmai.cn:front-end/gm_static_projectx.git"
+    "url": "git@code.guanmai.cn:fe-x/gm_static_x_projectx.git"
   },
   "author": "",
   "license": "ISC",
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "@gm-common/router": "^2.5.0-alpha.0",
-    "@gm-react-app/scripts": "^3.2.10",
+    "@gm-react-app/scripts": "^3.3.0",
     "@types/big.js": "^4.0.5",
     "@types/classnames": "^2.2.10",
     "@types/lodash": "^4.14.159",
