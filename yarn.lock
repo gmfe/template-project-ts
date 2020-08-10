@@ -973,7 +973,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
   version "7.11.2"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
@@ -1196,6 +1196,13 @@
     lodash "^4.17.19"
     query-string "^6.11.1"
 
+"@gm-common/tool@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@gm-common/tool/-/tool-2.4.1.tgz#3c7010f91364bbd0ee8dd38f64137adc2019588a"
+  integrity sha512-WIb15kzx3BiAnsMW6a/cdB17zxi9Xc4P1GaXHg8ssaW1o5myxohCY+dSZhygRkk7Cm/5RaeWPR6iH5IBuduVvQ==
+  dependencies:
+    lodash "^4.17.15"
+
 "@gm-react-app/scripts@^3.3.1":
   version "3.3.1"
   resolved "https://registry.npmjs.org/@gm-react-app/scripts/-/scripts-3.3.1.tgz#b4d71623bb633d8957ca4fd68af2f5fbbbb36fe3"
@@ -1251,6 +1258,59 @@
     fs-extra "^9.0.1"
     path "^0.12.7"
     shelljs "^0.8.4"
+
+"@gmfe/business@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@gmfe/business/-/business-3.0.0-beta.11.tgz#792bc805baecdc31f4188049ceed51e5cf218ea1"
+  integrity sha512-hl0xu82mlDJ6tDH+sAyjINxZcEB+1jF+G26/G+88iGOefXGB9unkjpRsAygSQR9hrRYLCFtJH7wfJONVOFgtZA==
+  dependencies:
+    "@gm-common/tool" "^2.4.1"
+    "@gmfe/react" "^3.0.0-beta.11"
+    prop-types "^15.7.2"
+
+"@gmfe/frame@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@gmfe/frame/-/frame-3.0.0-beta.11.tgz#9c0a822232834e33203ad115690f4ecef32ba4e0"
+  integrity sha512-4QeIFERUnbDO15zrlbox5Uk90JgtpzfHTj7M+qOAFT57YJBWZUdLKSv3VB2k8oM08/YTR1NeKlk59QcavrHs4Q==
+  dependencies:
+    "@gm-common/tool" "^2.4.1"
+    "@gmfe/react" "^3.0.0-beta.11"
+    classnames "^2.2.5"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+
+"@gmfe/locales@^3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@gmfe/locales/-/locales-3.0.0-beta.11.tgz#803a7e4b009e7decfda258309d545f0b4aa4a014"
+  integrity sha512-1fzvAeD7hRPJJ7eq0NwDuw8CcDgEfr8jfIM3VfRDryJ4b8oUGG6RfR0e6blJ5WA4mmRKHoBueWhlLH27SB+xzw==
+
+"@gmfe/react@3.0.0-beta.11", "@gmfe/react@^3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@gmfe/react/-/react-3.0.0-beta.11.tgz#effd9bbefad0809460ce58eb1eca9049d687bcd7"
+  integrity sha512-iIzFOUZA9LWDNhgDQ5U1YRx53/9v6dQi7ZOlLK2rTQ2MWGU4MQASuK0wK3HZMu2qUV/cQ4JfccJ4ROZ3YNli2A==
+  dependencies:
+    "@gm-common/tool" "^2.4.1"
+    "@gmfe/locales" "^3.0.0-beta.11"
+    big.js "^5.2.2"
+    classnames "^2.2.5"
+    lodash "^4.17.15"
+    moment "^2.24.0"
+    react-window "^1.8.5"
+
+"@gmfe/table-x@3.0.0-beta.11":
+  version "3.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/@gmfe/table-x/-/table-x-3.0.0-beta.11.tgz#7b326db3b95998e31b554e24609a78f60c40c78b"
+  integrity sha512-lzo7VoxnHB42BhCnHsECguaoc1ut18RevHOUvUHuIASGSYK0P08VbpdGLKVAwQ8wJNycK2BnejWLDtnw6ONsKQ==
+  dependencies:
+    "@gm-common/tool" "^2.4.1"
+    "@gmfe/locales" "^3.0.0-beta.11"
+    "@gmfe/react" "^3.0.0-beta.11"
+    classnames "^2.2.5"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+    react-table "7.0.0-rc.11"
+    react-window "^1.8.5"
+    sortablejs "^1.10.1"
 
 "@hot-loader/react-dom@^16.11.0":
   version "16.13.0"
@@ -2682,9 +2742,9 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.6:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
 clean-css@4.2.x, clean-css@^4.2.3:
@@ -5976,6 +6036,11 @@ media-typer@0.3.0:
   resolved "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
 
+"memoize-one@>=3.1.1 <6":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
+  integrity sha512-HKeeBpWvqiVJD57ZUAsJNm71eHTykffzcLZVYWiVfQeI1rJtuEaS7hQiEpWfVVk18donPwJEcFKIkCmPJNOhHA==
+
 memory-fs@^0.4.1:
   version "0.4.1"
   resolved "https://registry.npmjs.org/memory-fs/-/memory-fs-0.4.1.tgz#3a9a20b8462523e447cfbc7e8bb80ed667bfc552"
@@ -6299,9 +6364,9 @@ mobx@^4.15.4:
   resolved "https://registry.npmjs.org/mobx/-/mobx-4.15.5.tgz#7fb0fb5fbd56ccbd9551b1a7510494b6c5e41680"
   integrity sha512-Tjhxy2ui0H++1ackzkeG+YSDDwS7sKBvIVCxyADK+S/8ZznctmrCL5vvu+jpE+kBLpttHj/xP+haLC5QEsqA2Q==
 
-moment@^2.27.0:
+moment@^2.24.0, moment@^2.27.0:
   version "2.27.0"
-  resolved "https://registry.npmjs.org/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
   integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
 
 move-concurrently@^1.0.1:
@@ -7732,6 +7797,19 @@ react-router@5.2.0, react-router@^5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
+react-table@7.0.0-rc.11:
+  version "7.0.0-rc.11"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.0.0-rc.11.tgz#98c5299ce16a09c8899727955fb4505bd1ed64ac"
+  integrity sha512-Wj2amgPpi69MyMvjIQZMTp+bhun5uAjBtHbDIfAT5n/xa3DN0Frby5aSlMmrmbuWAIB3BLM2ak6hfkuWspXX/A==
+
+react-window@^1.8.5:
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/react-window/-/react-window-1.8.5.tgz#a56b39307e79979721021f5d06a67742ecca52d1"
+  integrity sha512-HeTwlNa37AFa8MDZFZOKcNEkuF2YflA0hpGPiTT9vR7OawEt+GZbfM6wqkBahD3D3pUjIabQYzsnY/BSJbgq6Q==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    memoize-one ">=3.1.1 <6"
+
 react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
@@ -8501,6 +8579,11 @@ sort-keys@^1.0.0:
   integrity sha1-RBttTTRnmPG05J6JIK37oOVD+a0=
   dependencies:
     is-plain-obj "^1.0.0"
+
+sortablejs@^1.10.1:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.10.2.tgz#6e40364d913f98b85a14f6678f92b5c1221f5290"
+  integrity sha512-YkPGufevysvfwn5rfdlGyrGjt7/CRHwvRPogD/lC+TnvcN29jDpCifKP+rBqf+LRldfXSTh+0CGLcSg0VIxq3A==
 
 source-list-map@^2.0.0:
   version "2.0.1"

@@ -1,3 +1,13 @@
 {
-  "extends": "ts-config-gm-react-app/tsconfig"
+  "extends": "ts-config-gm-react-app/tsconfig",
+  "compilerOptions": {
+    "importsNotUsedAsValues": "preserve"
+  },
+  "baseUrl": ".",
+  "paths": {
+    "common/*": ["src/js/common/*"],
+    "stores/*": ["src/js/stores/*"],
+    "svg/*": ["src/svg/*"],
+    "img/*": ["src/img/*"]
+  }
 }

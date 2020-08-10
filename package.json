@@ -51,6 +51,10 @@
   "dependencies": {
     "@gm-common/router": "^2.5.0-alpha.0",
     "@gm-react-app/scripts": "^3.3.1",
+    "@gmfe/business": "3.0.0-beta.11",
+    "@gmfe/frame": "3.0.0-beta.11",
+    "@gmfe/react": "3.0.0-beta.11",
+    "@gmfe/table-x": "3.0.0-beta.11",
     "@types/big.js": "^4.0.5",
     "@types/classnames": "^2.2.10",
     "@types/lodash": "^4.14.159",
