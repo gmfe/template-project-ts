@@ -9,7 +9,7 @@
       "svg/*": ["src/svg/*"],
       "img/*": ["src/img/*"],
       "@/*": ["src/*"]
-    },
+    }
   },
-  "include": ["src/**/*","global.d.ts"],
+  "include": ["src/**/*", "global.d.ts"]
 }

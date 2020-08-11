@@ -49,8 +49,8 @@
     ]
   },
   "dependencies": {
-    "@gm-common/router": "^2.5.0-alpha.0",
-    "@gm-react-app/scripts": "3.3.2-beta.1",
+    "@gm-common/router": "^2.5.0",
+    "@gm-react-app/scripts": "3.3.2-beta.2",
     "@gmfe/business": "3.0.0-beta.11",
     "@gmfe/frame": "3.0.0-beta.11",
     "@gmfe/react": "3.0.0-beta.11",
