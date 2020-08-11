@@ -1,14 +1,11 @@
-import React from 'react'
+import React, { ErrorInfo } from 'react'
 
 class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      error: null,
-    }
+  state = {
+    error: null,
   }
 
-  componentDidCatch(error, info) {
+  componentDidCatch(error: Error, info: ErrorInfo) {
     this.setState({ error: { error, info } })
 
     // 错误上报

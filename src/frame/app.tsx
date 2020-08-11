@@ -1,11 +1,11 @@
-import React from 'react'
-import ImgLogo from '@/img/logo.png'
-import SvgSuccess from '@/svg/success.svg'
+import React, { FC } from 'react'
+import ImgLogo from 'img/logo.png'
+import SvgSuccess from 'svg/success.svg'
 import { useLocation } from 'react-router'
-import globalStore from '@/stores/global'
+import globalStore from 'stores/global'
 import { observer } from 'mobx-react'
 
-const Child = ({ children }) => {
+const Child: FC<{ children: React.ReactElement }> = ({ children }) => {
   const { pathname, search } = useLocation()
 
   return React.cloneElement(children, {
@@ -29,7 +29,7 @@ const MobxExample = observer(() => {
   )
 })
 
-const App = ({ children, ...rest }) => {
+const App: FC<{ children: React.ReactElement }> = ({ children, ...rest }) => {
   return (
     <div {...rest}>
       app

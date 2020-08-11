@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@gm-common/router": "^2.5.0-alpha.0",
-    "@gm-react-app/scripts": "^3.3.1",
+    "@gm-react-app/scripts": "3.3.2-beta.1",
     "@gmfe/business": "3.0.0-beta.11",
     "@gmfe/frame": "3.0.0-beta.11",
     "@gmfe/react": "3.0.0-beta.11",
@@ -58,6 +58,9 @@
     "@types/big.js": "^4.0.5",
     "@types/classnames": "^2.2.10",
     "@types/lodash": "^4.14.159",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.5",
     "babel-plugin-mobx-deep-action": "^1.6.1",
     "big.js": "^5.2.2",
     "classnames": "^2.2.6",
