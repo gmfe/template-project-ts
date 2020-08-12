@@ -2,7 +2,7 @@ import React from 'react'
 import { Box } from '@gmfe/react'
 import { TableX } from '@gmfe/table-x'
 import type { TableXColumn } from '@gmfe/table-x'
-
+import { Group } from 'projectx/enterprise/proto/enterprise'
 // import ImgLogo from './logo.png'
 // import SvgSuccess from './svg/success.svg'
 
@@ -21,6 +21,16 @@ interface InitialDataOptions {
     value: number
     text: string
   }
+}
+
+const group: Group = {
+  group_id: 'dfdfd',
+  is_valid: false,
+  name: 'afgsdfgsdf',
+  address: {
+    address_id: 'fdfdf',
+  },
+  type: Group.Type.EXTERNAL,
 }
 
 const initialData: InitialDataOptions[] = [
@@ -69,6 +79,7 @@ const columns: TableXColumn<InitialDataOptions>[] = [
     },
   },
 ]
+console.log(group)
 const Demo = () => {
   return (
     <Box hasGap>

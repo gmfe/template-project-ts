@@ -1185,10 +1185,10 @@
   resolved "https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
-"@gm-common/router@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.npmjs.org/@gm-common/router/-/router-2.5.0.tgz#4a5168591c7cf446fd8ab3910991b014cf8485e4"
-  integrity sha512-DL9nE+jpejRuP4FgREuzxWkqCkQ4i9VeLDGh86gfGoXDT6506MTLraG6rgqPG1Lcdv1qBtvnItcxQXHl2Mxl3g==
+"@gm-common/router@2.5.1-alpha.0":
+  version "2.5.1-alpha.0"
+  resolved "https://registry.yarnpkg.com/@gm-common/router/-/router-2.5.1-alpha.0.tgz#fe162fe6a7a2b1e1870aaa9ab6a5a8878ff283a1"
+  integrity sha512-oerLwVfvRpAXVeqz3f1Au/kJgLoSesOQ0kTHA3WeprfBHVQiT9VJZfJSoSNodPLXj+HyPdAy/vUbQxKF+9eVOg==
   dependencies:
     "@types/history" "^4.7.5"
     "@types/hoist-non-react-statics" "^3.3.1"
@@ -7591,6 +7591,10 @@ progress@^2.0.0:
   version "2.0.3"
   resolved "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
+
+"projectx@git+ssh://git@code.guanmai.cn:back_end/projectx.git#0d2e83dc6b8c9ec0b82d5a741fff0b0a120bfe7c":
+  version "0.1.0"
+  resolved "git+ssh://git@code.guanmai.cn:back_end/projectx.git#0d2e83dc6b8c9ec0b82d5a741fff0b0a120bfe7c"
 
 promise-inflight@^1.0.1:
   version "1.0.1"

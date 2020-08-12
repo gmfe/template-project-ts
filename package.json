@@ -49,7 +49,7 @@
     ]
   },
   "dependencies": {
-    "@gm-common/router": "^2.5.0",
+    "@gm-common/router": "2.5.1-alpha.0",
     "@gm-react-app/scripts": "3.3.2-beta.2",
     "@gmfe/business": "3.0.0-beta.11",
     "@gmfe/frame": "3.0.0-beta.11",
@@ -68,6 +68,7 @@
     "mobx": "^4.15.4",
     "mobx-react": "^6.2.5",
     "moment": "^2.27.0",
+    "projectx": "git+ssh://git@code.guanmai.cn:back_end/projectx.git#0d2e83dc6b8c9ec0b82d5a741fff0b0a120bfe7c",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
