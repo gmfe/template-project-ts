@@ -13,9 +13,11 @@ const Root = () => (
   <ErrorBoundary>
     <Router>
       <App>
-        <AutoRouter>
-          <Redirect exact from='/' to='/home' />
-        </AutoRouter>
+        <ErrorBoundary>
+          <AutoRouter>
+            <Redirect exact from='/' to='/home' />
+          </AutoRouter>
+        </ErrorBoundary>
       </App>
     </Router>
   </ErrorBoundary>

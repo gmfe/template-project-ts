@@ -4,10 +4,6 @@
     "baseUrl": "./",
     "importsNotUsedAsValues": "preserve",
     "paths": {
-      "common/*": ["src/common/*"],
-      "stores/*": ["src/stores/*"],
-      "svg/*": ["src/svg/*"],
-      "img/*": ["src/img/*"],
       "@/*": ["src/*"]
     }
   },
