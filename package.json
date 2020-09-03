@@ -45,12 +45,13 @@
   },
   "commitlint": {
     "extends": [
-      "@commitlint/config-conventional"
+      "@gm-react-app/commitlint-gm-react-app"
     ]
   },
   "dependencies": {
     "@gm-common/router": "^2.5.1-alpha.0",
     "@gm-react-app/scripts": "3.3.2-beta.2",
+    "@gm-react-app/commitlint-gm-react-app": "3.3.2-beta.5",
     "@types/big.js": "^4.0.5",
     "@types/classnames": "^2.2.10",
     "@types/lodash": "^4.14.159",
